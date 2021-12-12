@@ -1,3 +1,13 @@
 .app-img {
     width: 200px;
 }
+
+.card {
+    margin: 0 auto;
+}
+
+.card {
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
