@@ -37,3 +37,27 @@ h3 {
 .icon:hover {
     color: rgb(19, 72, 130);
 }
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    font-size: 2.5em;
+    padding-right: 1em;
+}
+
+.nav li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* { 
+    margin: 0;
+    padding: 0;
+} /*
