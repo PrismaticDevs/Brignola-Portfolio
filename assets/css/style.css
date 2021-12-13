@@ -3,6 +3,8 @@ body {
     font-family: 'Nunito', sans-serif;
     font-family: 'Red Hat Mono', monospace;
     font-family: 'Roboto Condensed', sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 footer {
@@ -26,6 +28,17 @@ h1,
 h2,
 h3 {
     margin: 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
 }
 
 .app-img {
@@ -70,4 +83,13 @@ h3 {
     font-size: 3.5em;
     color: white;
     text-align: center;
+    line-height: normal;
+}
+
+.card {
+    width: fit-content;
+}
+
+.card-body {
+    width: fit-content;
 }
