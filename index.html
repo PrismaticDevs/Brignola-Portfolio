@@ -65,15 +65,15 @@
         </div>
         <div class="title" id="apps">Deployed Applications</div>
         <div class="row justify-content-center mt-3">
-            <!-- Modal -->
+            <!-- Crypto Modal -->
             <div class="modal fade" id="crypto-cocktails" tabindex="-1" role="dialog" aria-labelledby="crypto-cocktails" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Crypto Currency Prices & Cocktail Recipes</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                    <span aria-hidden="true">&times;</span>
+                </button>
                         </div>
                         <div class="modal-body">
                             <p>This application fetches current cryptocurrency prices and gives the user a random cocktail recipe. 3 APIs are used to fetch the data. The cryptocurrency price data is fetched from Coinbase.com's API. In order to display the
@@ -81,12 +81,13 @@
                             <br>
                             <h5>Technologies</h5>
                             <ul>
-                                <li>HTML & CSS</li>
-                                <li>Materialize CSS framework</li>
-                                <li>JavaScript & jQuery</li>
                                 <li>Coinbase API</li>
                                 <li>Coingecko API</li>
                                 <li>Cocktail DB API</li>
+                                <li>Materialize CSS framework</li>
+                                <li>jQuery & Ajax</li>
+                                <li>JavaScript <i class="fab fa-js-square"></i></li>
+                                <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
                             </ul>
                         </div>
                         <div class="modal-footer">
@@ -96,6 +97,90 @@
                     </div>
                 </div>
             </div>
+            <!-- Crypto Modal -->
+            <div class="modal fade" id="weather" tabindex="-1" role="dialog" aria-labelledby="weather" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Weather Forecasts by City</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>This application fetches current and 5 day weather forecast data from the Open Weather API. Users can enter the city in any country they want to see the weather for. The data that is reurned displays the curren weather along
+                                with a 5 day faorecast. Icons are also displayed to represent the current or projected weather forecast.</p>
+                            <br>
+                            <h5>Technologies</h5>
+                            <ul>
+                                <li>Open Weather API</li>
+                                <li>jQuery & Ajax</li>
+                                <li>JavaScript <i class="fab fa-js-square"></i></li>
+                                <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Planner Modal -->
+            <div class="modal fade" id="planner" tabindex="-1" role="dialog" aria-labelledby="planner" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Day Planner</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>This application allows the user to enter and save events ino a daily planner. The events you enter are saved onto your local computer and will remain in the application until you change or erase them.</p>
+                            <br>
+                            <h5>Technologies</h5>
+                            <ul>
+                                <li>jQuery & Ajax</li>
+                                <li>JavaScript <i class="fab fa-js-square"></i></li>
+                                <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tic Tac Toe Modal -->
+            <div class="modal fade" id="tictactoe" tabindex="-1" role="dialog" aria-labelledby="tictactoe" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Tic Tac Toe</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>This application is allow the user to play tic tac toe keeping rack of X and Y's wins. There is also a button to reset the score back to 0.</p>
+                            <br>
+                            <h5>Technologies</h5>
+                            <ul>
+                                <li>Vue.js Framework <i class="fab fa-vuejs"></i></li>
+                                <li>JavaScript <i class="fab fa-js-square"></i></li>
+                                <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Cards -->
             <div class="main-content">
                 <div class="col-3">
                     <div class="card mx-auto">
@@ -113,11 +198,12 @@
                 <div class="col-3 ">
                     <div class="card mx-auto ">
                         <div class="card-body ">
-                            <h2>Weather Forecast</h2>
+                            <h2>Day Planner</h2>
                             <img class="app-img " src="./assets/img/weather.jpg " alt="Unable to Load Content ">
                             <a href="https://prismaticdevelopmentstudios.github.io/weather_dashboard/ " target="_blank " class="btn btn-primary ">View App</a>
                             <a href="https://github.com/PrismaticDevelopmentStudios/weather_dashboard/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
-                            <a onclick=" " target="_blank " class="btn btn-info text-white ">Info</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#weather">Info</button>
                         </div>
                         <a class="btn btn-secondary " href="#top ">Back to top</a>
                     </div>
@@ -129,7 +215,7 @@
                             <img class="app-img " src="./assets/img/planner.jpg " alt="Unable to Load Content ">
                             <a href="https://prismaticdevelopmentstudios.github.io/day-planner/ " class="btn btn-primary " target="_blank ">View App</a>
                             <a href="https://github.com/PrismaticDevelopmentStudios/day-planner/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
-                            <a onclick=" " target="_blank " class="btn btn-info text-white ">Info</a>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#planner">Info</button>
                         </div>
                         <a class="btn btn-secondary " href="#top ">Back to top</a>
                     </div>
@@ -141,7 +227,7 @@
                             <img class="app-img " src="./assets/img/tic-tac-toe.jpg " alt="Unable to Load Content ">
                             <a href="https://primatic-tic-tac-toe.netlify.app/ " target="_blank " class="btn btn-primary ">View App</a>
                             <a href="https://github.com/PrismaticDevelopmentStudios/TicTacToe/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
-                            <a onclick=" " target="_blank " class="btn btn-info text-white ">Info</a>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#tictactoe">Info</button>
                         </div>
                         <a class="btn btn-secondary " href="#top ">Back to top</a>
                     </div>
