@@ -89,8 +89,19 @@ h3 {
 
 .card {
     width: fit-content;
+    margin-bottom: 1em;
 }
 
 .card-body {
-    width: 40rem;
+    width: 60rem;
+}
+
+.btn-info {
+    background-color: plum;
+    outline: none;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: rgb(160, 115, 160);
 }
