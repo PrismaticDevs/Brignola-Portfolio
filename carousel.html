@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
+</head>
+
+<body>
+    <h2 id="top" class="text-center text-white mt-3">Matthew Brignola</h2>
+    <h1 class="text-center  text-white main-title">Web Development Portfolio</h1>
+    <nav class="nav">
+        <ul>
+            <li>
+                <a href="#resume">Resume</a>
+            </li>
+            <li>
+                <a href="#apps">Applications</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="mb-5 card">
+        <div id="resume" class="section">
+            <h1>Recent Work Experience</h1>
+            <ul>
+                <h3>Managed Services Technical Consultant at AppTier LLC in Denver, CO</h3>
+                <h3>April 2019 - October 2019</h3>
+                <li>Managed Services Consultant for Enterprise Content Management (OPENTEXT Content Server Software)</li>
+                <li>Installation of software a Windows Server and application software</li>
+                <li>Installation and configuration of Apache Web Server</li>
+                <li>Installation of Win32 database</li>
+                <li>Generation of weekly data usage reports and delivery of reports to our clients</li>
+                <li>Use of OPENTEXT documentation to assist in triage and troubleshooting while resolving tickets</li>
+                <li>Use of Manage Engine managed services ticketing system software to document, triage, and resolve tickets</li>
+            </ul>
+            <ul>
+                <h3>Educator at Denver Public in Schools Denver, CO</h3>
+                <h3>June 2014 - April 2018</h3>
+                <li>Career Technology Teacher at Noel Community Arts School Middle School (2017-2018)</li>
+                <li>Maintenance and setup of iMac computer lab</li>
+                <li>WAN connectivity</li>
+                <li>Setup and Maintenance of AV equipment (cameras, monitors, lighting equipment, Adobe, etc.)</li>
+            </ul>
+            <ul>
+                <h3>Founder and CEO at Brink Media LLC (2017-2019), Denver, CO</h3>
+                <h3>March 2017 - October 2019</h3>
+                <li>Video, Web Design, Graphic Design, and Digital Marketing Services</li>
+                <li>Management of Design, Marketing and Sales, and Core Business Operations</li>
+                <li>Management of Company Officers and Other Personnel</li>
+                <li>Meeting Scheduling and Facilitation</li>
+                <li>Financial Reports and Projections</li>
+            </ul>
+        </div>
+        <div class="resume">
+            <a class="btn btn-primary" href="./assets/Matthew Brignola Resume.pdf" download>Download as PDF</a>
+        </div>
+    </div>
+    <h1 class="text-center text-white">Deployed Applications</h1>
+    <hr color="white" width="20%">
+    <div id="apps" class="carousel slide mb-5" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2 class="card-title text-center">Crypto & Cocktails</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/crypto-cocktails.jpg" alt="First slide">
+                </div>
+                <div class="btns">
+                    <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/crypto-cocktails" target="_blank" class="btn btn-success">Source Code</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#crypto-cocktails">Info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 class="card-title text-center">Day Planner</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/planner.jpg" alt="Second slide">
+                </div>
+                <div class="btns">
+                    <a href="https://prismaticdevelopmentstudios.github.io/day-planner/ " class="btn btn-primary " target="_blank ">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/day-planner/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#planner">Info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 class="card-title text-center">Reaction Timer</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/reaction-timer.jpg" alt="Third slide">
+                </div>
+                <div class="btns">
+                    <a href="https://prismatic-reaction-timer.netlify.app/ " target="_blank " class="btn btn-primary ">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/reaction-timer/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#reaction">Info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 class="card-title text-center">Weather Forecast by City</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/weather.jpg" alt="Third slide">
+                </div>
+                <div class="btns">
+                    <a href="https://prismaticdevelopmentstudios.github.io/weather_dashboard/ " target="_blank " class="btn btn-primary ">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/weather_dashboard/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#weather">Info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 class="card-title text-center">Tic Tac Toe</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/tic-tac-toe.jpg" alt="Third slide">
+                </div>
+                <div class="btns">
+                    <a href="https://primatic-tic-tac-toe.netlify.app/ " target="_blank " class="btn btn-primary ">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/TicTacToe/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#tictactoe">Info</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#apps" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#apps" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>

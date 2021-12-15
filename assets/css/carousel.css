@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(19, 72, 130);
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.btn {
+    margin-right: 5%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    color: white;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.section {
+    margin: 0 auto;
+}
+
+.card {
+    padding-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+/* Nav */
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    font-size: 2.5em;
+    padding-right: 1em;
+}
+
+.nav li a:hover {
+    color: white;
+    text-decoration: none;
+}
