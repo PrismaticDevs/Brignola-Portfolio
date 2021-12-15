@@ -99,7 +99,7 @@ h3 {
 }
 
 .card-body {
-    width: 60rem;
+    width: 25rem;
 }
 
 .btn-info {
@@ -114,6 +114,11 @@ h3 {
 
 .col-3 {
     flex: 0 0 22%;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
