@@ -5,299 +5,293 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Development Portfolio</title>
+    <title>Carousel</title>
     <!-- Boostrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Red+Hat+Mono:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
 </head>
 
 <body>
-    <div class="content">
-        <h2 id="top" class="text-center text-white mt-3">Matthew Brignola</h2>
-        <h1 class="text-center  text-white main-title">Web Development Portfolio</h1>
-        <nav class="nav">
+    <h2 id="top" class="text-center text-white mt-3">Matthew Brignola</h2>
+    <h1 class="text-center  text-white main-title">Web Development Portfolio</h1>
+    <nav class="nav">
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#resume">Resume</a>
+            </li>
+            <li>
+                <a href="#apps">Applications</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="about" class="m-5 card">
+        <div class="section mb-5 text-center">
+            <h1>About Me</h1>
+            <img id="profile-pic" src="./assets/img/profile-img.png" alt="Image Could Not Be Loaded">
+            <h4>Education</h4>
+            <p>Bachelor's of Arts in Video Production & English</p>
+        </div>
+    </div>
+    <div class="mb-5 card">
+        <div id="resume" class="section">
+            <h1>Work Experience</h1>
             <ul>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-                <li>
-                    <a href="#apps">Applications</a>
-                </li>
+                <h3>Managed Services Technical Consultant at AppTier LLC in Denver, CO</h3>
+                <h3>April 2019 - October 2019</h3>
+                <li>Managed Services Consultant for Enterprise Content Management (OPENTEXT Content Server Software)</li>
+                <li>Installation of software a Windows Server and application software</li>
+                <li>Installation and configuration of Apache Web Server</li>
+                <li>Installation of Win32 database</li>
+                <li>Generation of weekly data usage reports and delivery of reports to our clients</li>
+                <li>Use of OPENTEXT documentation to assist in triage and troubleshooting while resolving tickets</li>
+                <li>Use of Manage Engine managed services ticketing system software to document, triage, and resolve tickets</li>
             </ul>
-        </nav>
-        <div class="bg-white mx-auto mb-5 card">
-            <div id="resume" class="section">
-                <h1>Recent Work Experience</h1>
-                <ul>
-                    <h3>Managed Services Technical Consultant at AppTier LLC in Denver, CO</h3>
-                    <h3>April 2019 - October 2019</h3>
-                    <li>Managed Services Consultant for Enterprise Content Management (OPENTEXT Content Server Software)</li>
-                    <li>Installation of software a Windows Server and application software</li>
-                    <li>Installation and configuration of Apache Web Server</li>
-                    <li>Installation of Win32 database</li>
-                    <li>Generation of weekly data usage reports and delivery of reports to our clients</li>
-                    <li>Use of OPENTEXT documentation to assist in triage and troubleshooting while resolving tickets</li>
-                    <li>Use of Manage Engine managed services ticketing system software to document, triage, and resolve tickets</li>
-                </ul>
-                <ul>
-                    <h3>Educator at Denver Public in Schools Denver, CO</h3>
-                    <h3>June 2014 - April 2018</h3>
-                    <li>Career Technology Teacher at Noel Community Arts School Middle School (2017-2018)</li>
-                    <li>Maintenance and setup of iMac computer lab</li>
-                    <li>WAN connectivity</li>
-                    <li>Setup and Maintenance of AV equipment (cameras, monitors, lighting equipment, Adobe, etc.)</li>
-                </ul>
-                <ul>
-                    <h3>Founder and CEO at Brink Media LLC (2017-2019), Denver, CO</h3>
-                    <h3>March 2017 - October 2019</h3>
-                    <li>Video, Web Design, Graphic Design, and Digital Marketing Services</li>
-                    <li>Management of Design, Marketing and Sales, and Core Business Operations</li>
-                    <li>Management of Company Officers and Other Personnel</li>
-                    <li>Meeting Scheduling and Facilitation</li>
-                    <li>Financial Reports and Projections</li>
-                </ul>
-            </div>
-            <div class="resume">
-                <a class="btn btn-primary" href="./assets/Matthew Brignola Resume.pdf" download>Download as PDF</a>
+            <ul>
+                <h3>Educator at Denver Public in Schools Denver, CO</h3>
+                <h3>June 2014 - April 2018</h3>
+                <li>Career Technology Teacher at Noel Community Arts School Middle School (2017-2018)</li>
+                <li>Maintenance and setup of iMac computer lab</li>
+                <li>WAN connectivity</li>
+                <li>Setup and Maintenance of AV equipment (cameras, monitors, lighting equipment, Adobe, etc.)</li>
+            </ul>
+            <ul>
+                <h3>Founder and CEO at Brink Media LLC (2017-2019), Denver, CO</h3>
+                <h3>March 2017 - October 2019</h3>
+                <li>Video, Web Design, Graphic Design, and Digital Marketing Services</li>
+                <li>Management of Design, Marketing and Sales, and Core Business Operations</li>
+                <li>Management of Company Officers and Other Personnel</li>
+                <li>Meeting Scheduling and Facilitation</li>
+                <li>Financial Reports and Projections</li>
+            </ul>
+        </div>
+        <div class="resume">
+            <a class="btn btn-primary" href="./assets/Matthew Brignola Resume.pdf" download>Download as PDF</a>
+        </div>
+    </div>
+    <!-- Modals -->
+    <!-- Crypto Modal -->
+    <div class="modal fade" id="crypto-cocktails" tabindex="-1" role="dialog" aria-labelledby="crypto-cocktails" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Crypto Currency Prices & Cocktail Recipes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>This application fetches current cryptocurrency prices and gives the user a random cocktail recipe. 3 APIs are used to fetch the data. The cryptocurrency price data is fetched from Coinbase.com's API. In order to display the icons
+                        for select coins we used the Coingecko API. Lastly we used the API from CocktailDB to display the recipe for a random cocktail when after the user searches for a cryptocurrency.</p>
+                    <br>
+                    <h5>Technologies</h5>
+                    <ul>
+                        <li>Coinbase API</li>
+                        <li>Coingecko API</li>
+                        <li>Cocktail DB API</li>
+                        <li>Materialize CSS framework</li>
+                        <li>jQuery & Ajax</li>
+                        <li>JavaScript <i class="fab fa-js-square"></i></li>
+                        <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
+                </div>
             </div>
         </div>
-        <div class="title" id="apps">Deployed Applications</div>
-        <div class="row justify-content-center mt-3">
-            <!-- Crypto Modal -->
-            <div class="modal fade" id="crypto-cocktails" tabindex="-1" role="dialog" aria-labelledby="crypto-cocktails" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Crypto Currency Prices & Cocktail Recipes</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>This application fetches current cryptocurrency prices and gives the user a random cocktail recipe. 3 APIs are used to fetch the data. The cryptocurrency price data is fetched from Coinbase.com's API. In order to display the
-                                icons for select coins we used the Coingecko API. Lastly we used the API from CocktailDB to display the recipe for a random cocktail when after the user searches for a cryptocurrency.</p>
-                            <br>
-                            <h5>Technologies</h5>
-                            <ul>
-                                <li>Coinbase API</li>
-                                <li>Coingecko API</li>
-                                <li>Cocktail DB API</li>
-                                <li>Materialize CSS framework</li>
-                                <li>jQuery & Ajax</li>
-                                <li>JavaScript <i class="fab fa-js-square"></i></li>
-                                <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
-                        </div>
-                    </div>
+    </div>
+    <!-- Crypto
+    <!-- Weather Modal -->
+    <div class="modal fade" id="weather" tabindex="-1" role="dialog" aria-labelledby="weather" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Weather Forecasts by City</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>This application fetches current and 5 day weather forecast data from the Open Weather API. Users can enter the city in any country they want to see the weather for. The data that is reurned displays the curren weather along with a
+                        5 day faorecast. Icons are also displayed to represent the current or projected weather forecast.</p>
+                    <br>
+                    <h5>Technologies</h5>
+                    <ul>
+                        <li>Open Weather API</li>
+                        <li>jQuery & Ajax</li>
+                        <li>JavaScript <i class="fab fa-js-square"></i></li>
+                        <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
                 </div>
             </div>
-            <!-- Crypto Modal -->
-            <div class="modal fade" id="weather" tabindex="-1" role="dialog" aria-labelledby="weather" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Weather Forecasts by City</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>This application fetches current and 5 day weather forecast data from the Open Weather API. Users can enter the city in any country they want to see the weather for. The data that is reurned displays the curren weather along
-                                with a 5 day faorecast. Icons are also displayed to represent the current or projected weather forecast.</p>
-                            <br>
-                            <h5>Technologies</h5>
-                            <ul>
-                                <li>Open Weather API</li>
-                                <li>jQuery & Ajax</li>
-                                <li>JavaScript <i class="fab fa-js-square"></i></li>
-                                <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Planner Modal -->
-            <div class="modal fade" id="planner" tabindex="-1" role="dialog" aria-labelledby="planner" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Day Planner</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>This application allows the user to enter and save events ino a daily planner. The events you enter are saved onto your local computer and will remain in the application until you change or erase them. The app displays the
-                                current date and the time slots according to the current time. If a time slot already occurred it's gray, if it's in the fuure it's green, and if he time slot is the curren time it is pink</p>
-                            <br>
-                            <h5>Technologies</h5>
-                            <ul>
-                                <li>jQuery & Ajax</li>
-                                <li>JavaScript <i class="fab fa-js-square"></i></li>
-                                <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Tic Tac Toe Modal -->
-            <div class="modal fade" id="tictactoe" tabindex="-1" role="dialog" aria-labelledby="tictactoe" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Tic Tac Toe</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>This application is allow the user to play tic tac toe keeping rack of X and Y's wins. There is also a button to reset the score back to 0.</p>
-                            <br>
-                            <h5>Technologies</h5>
-                            <ul>
-                                <li>Vue.js Framework <i class="fab fa-vuejs"></i></li>
-                                <li>JavaScript <i class="fab fa-js-square"></i></li>
-                                <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="https://prismaticdevelopmentstudios.github.io/TicTacToe/" target="_blank" class="btn btn-primary">View App</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Reaction Timer Modal -->
-            <div class="modal fade" id="reaction" tabindex="-1" role="dialog" aria-labelledby="reaction" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Tic Tac Toe</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>This application sees how quickly a user can click a button once it appears. he app displays the speed at which the button was clicked as well as displaying a message based on the speed he button was clicked at.</p>
-                            <br>
-                            <h5>Technologies</h5>
-                            <ul>
-                                <li>Vue.js Framework <i class="fab fa-vuejs"></i></li>
-                                <li>JavaScript <i class="fab fa-js-square"></i></li>
-                                <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="https://prismaticdevelopmentstudios.github.io/reaction-timer/" target="_blank" class="btn btn-primary">View App</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Cards -->
-            <div class="main-content">
-                <div class="col-3 ">
-                    <div class="card">
-                        <div class="card-body">
-                            <h2 class="card-title text-center">Crypto & Cocktails</h2>
-                            <img class="app-img" src="./assets/img/crypto-cocktails.jpg" alt="Unable to Load Content">
-                            <div class="btns">
-                                <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
-                                <a href="https://github.com/PrismaticDevelopmentStudios/crypto-cocktails" target="_blank" class="btn btn-success">Source Code</a>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#crypto-cocktails">Info</button>
-                            </div>
-                        </div>
-                        <a class="btn btn-secondary" href="#top ">Back to top</a>
-                    </div>
-                </div>
-                <div class="col-3 ">
-                    <div class="card mx-auto ">
-                        <div class="card-body ">
-                            <h2>Weather Forecasts</h2>
-                            <img class="app-img " src="./assets/img/weather.jpg " alt="Unable to Load Content ">
-                            <div class="btns">
-                                <a href="https://prismaticdevelopmentstudios.github.io/weather_dashboard/ " target="_blank " class="btn btn-primary ">View App</a>
-                                <a href="https://github.com/PrismaticDevelopmentStudios/weather_dashboard/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#weather">Info</button>
-                            </div>
-                        </div>
-                        <a class="btn btn-secondary " href="#top ">Back to top</a>
-                    </div>
-                </div>
-                <div class="col-3 ">
-                    <div class="card mx-auto ">
-                        <div class="card-body ">
-                            <h1>Day Planner</h1>
-                            <img class="app-img " src="./assets/img/planner.jpg " alt="Unable to Load Content ">
-                            <div class="btns">
-                                <a href="https://prismaticdevelopmentstudios.github.io/day-planner/ " class="btn btn-primary " target="_blank ">View App</a>
-                                <a href="https://github.com/PrismaticDevelopmentStudios/day-planner/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
-                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#planner">Info</button>
-                            </div>
-                        </div>
-                        <a class="btn btn-secondary " href="#top ">Back to top</a>
-                    </div>
-                </div>
-                <div class="col-3 ">
-                    <div class="card mx-auto ">
-                        <div class="card-body ">
-                            <h1>Tic Tac Toe</h1>
-                            <img class="app-img " src="./assets/img/tic-tac-toe.jpg " alt="Unable to Load Content ">
-                            <div class="btns">
-                                <a href="https://primatic-tic-tac-toe.netlify.app/ " target="_blank " class="btn btn-primary ">View App</a>
-                                <a href="https://github.com/PrismaticDevelopmentStudios/TicTacToe/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
-                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#tictactoe">Info</button>
-                            </div>
-                        </div>
-                        <a class="btn btn-secondary " href="#top ">Back to top</a>
-                    </div>
-                </div>
-                <div class="col-3 ">
-                    <div class="card mx-auto ">
-                        <div class="card-body ">
-                            <h1>Reaction Timer</h1>
-                            <img class="app-img " src="./assets/img/reaction-timer.jpg " alt="Unable to Load Content ">
-                            <div class="btns">
-                                <a href="https://prismatic-reaction-timer.netlify.app/ " target="_blank " class="btn btn-primary ">View App</a>
-                                <a href="https://github.com/PrismaticDevelopmentStudios/reaction-timer/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
-                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#reaction">Info</button>
-                            </div>
-                        </div>
-                        <a class="btn btn-secondary " href="#top ">Back to top</a>
-                    </div>
-                </div>
-            </div>
-            <footer>
-                <a href="https://github.com/PrismaticDevelopmentStudios " title="GitHub " target="_blank "><i class="fab fa-github icon "></i></a>
-                <a href="https://www.linkedin.com/in/matthewbrignola/ " title="LinkedIn "><i class="fab fa-linkedin-in icon "></i></a>
-                <a href="https://angel.co/u/matthew-brignola " title="Angel List "><i class="fab fa-angellist icon "></i></a>
-            </footer>
         </div>
-        <!-- Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/fa193efd67.js " crossorigin="anonymous "></script>
+    </div>
+    <!-- Planner Modal -->
+    <div class="modal fade" id="planner" tabindex="-1" role="dialog" aria-labelledby="planner" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Day Planner</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>This application allows the user to enter and save events ino a daily planner. The events you enter are saved onto your local computer and will remain in the application until you change or erase them. The app displays the current
+                        date and the time slots according to the current time. If a time slot already occurred it's gray, if it's in the fuure it's green, and if he time slot is the curren time it is pink</p>
+                    <br>
+                    <h5>Technologies</h5>
+                    <ul>
+                        <li>jQuery & Ajax</li>
+                        <li>JavaScript <i class="fab fa-js-square"></i></li>
+                        <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tic Tac Toe Modal -->
+    <div class="modal fade" id="tictactoe" tabindex="-1" role="dialog" aria-labelledby="tictactoe" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tic Tac Toe</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>This application is allow the user to play tic tac toe keeping rack of X and Y's wins. There is also a button to reset the score back to 0.</p>
+                    <br>
+                    <h5>Technologies</h5>
+                    <ul>
+                        <li>Vue.js Framework <i class="fab fa-vuejs"></i></li>
+                        <li>JavaScript <i class="fab fa-js-square"></i></li>
+                        <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://prismaticdevelopmentstudios.github.io/TicTacToe/" target="_blank" class="btn btn-primary">View App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Reaction Timer Modal -->
+    <div class="modal fade" id="reaction" tabindex="-1" role="dialog" aria-labelledby="reaction" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tic Tac Toe</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>This application sees how quickly a user can click a button once it appears. he app displays the speed at which the button was clicked as well as displaying a message based on the speed he button was clicked at.</p>
+                    <br>
+                    <h5>Technologies</h5>
+                    <ul>
+                        <li>Vue.js Framework <i class="fab fa-vuejs"></i></li>
+                        <li>JavaScript <i class="fab fa-js-square"></i></li>
+                        <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://prismaticdevelopmentstudios.github.io/reaction-timer/" target="_blank" class="btn btn-primary">View App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Apps -->
+    <h1 class="text-center text-white">Deployed Applications</h1>
+    <hr color="white" width="20%">
+    <div id="apps" class="carousel slide mb-5" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2 class="card-title text-center">Crypto & Cocktails</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/crypto-cocktails.jpg" alt="First slide">
+                </div>
+                <div class="btns">
+                    <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/crypto-cocktails" target="_blank" class="btn btn-success">Source Code</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#crypto-cocktails">Info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 class="card-title text-center">Day Planner</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/planner.jpg" alt="Second slide">
+                </div>
+                <div class="btns">
+                    <a href="https://prismaticdevelopmentstudios.github.io/day-planner/ " class="btn btn-primary " target="_blank ">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/day-planner/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#planner">Info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 class="card-title text-center">Reaction Timer</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/reaction-timer.jpg" alt="Third slide">
+                </div>
+                <div class="btns">
+                    <a href="https://prismatic-reaction-timer.netlify.app/ " target="_blank " class="btn btn-primary ">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/reaction-timer/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#reaction">Info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 class="card-title text-center">Weather Forecast by City</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/weather.jpg" alt="Third slide">
+                </div>
+                <div class="btns">
+                    <a href="https://prismaticdevelopmentstudios.github.io/weather_dashboard/ " target="_blank " class="btn btn-primary ">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/weather_dashboard/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#weather">Info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 class="card-title text-center">Tic Tac Toe</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/tic-tac-toe.jpg" alt="Third slide">
+                </div>
+                <div class="btns">
+                    <a href="https://primatic-tic-tac-toe.netlify.app/ " target="_blank " class="btn btn-primary ">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/TicTacToe/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#tictactoe">Info</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#apps" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#apps" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
 </body>
 
 </html>
