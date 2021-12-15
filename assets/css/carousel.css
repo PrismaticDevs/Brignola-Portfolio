@@ -64,6 +64,12 @@ footer i {
 /* Nav */
 
 .nav ul {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+
+.nav ul {
     list-style-type: none;
 }
 
