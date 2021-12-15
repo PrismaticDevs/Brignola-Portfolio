@@ -61,3 +61,25 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.main-title {
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+
+
+/* Animations */
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    80% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
