@@ -45,6 +45,21 @@ header {
     position: fixed;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(19, 72, 130);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+footer i {
+    font-size: 3em;
+    margin-left: 1em;
+}
+
 
 /* Nav */
 
