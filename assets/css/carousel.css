@@ -41,15 +41,16 @@ body {
     width: 33%;
 }
 
+header {
+    position: fixed;
+    z-index: 1;
+}
+
 
 /* Nav */
 
 .nav ul {
     list-style-type: none;
-}
-
-.nav li {
-    display: inline-block;
 }
 
 .nav li a {
@@ -81,5 +82,11 @@ body {
     100% {
         transform: scale(1);
         opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .nav {
+        display: none;
     }
 }
