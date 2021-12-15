@@ -43,7 +43,6 @@ body {
 
 header {
     position: fixed;
-    z-index: 1;
 }
 
 
@@ -66,6 +65,10 @@ header {
 .main-title {
     animation-duration: 3s;
     animation-name: fadeIn;
+}
+
+#du {
+    width: 5%;
 }
 
 
