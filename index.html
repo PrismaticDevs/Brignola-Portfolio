@@ -221,6 +221,33 @@
             </div>
         </div>
     </div>
+    <!-- Password Generator Modal -->
+    <div class="modal fade" id="generator" tabindex="-1" role="dialog" aria-labelledby="generator" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Password Generator</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>This application allows a user to generate a random password. The user is first prompted if they want uppercase letters, numbers, or apecial characters. The user also must type in a numerical length. If the user fails to provide a
+                        numerical length, the process starts over. After the user reaspomds to the prompts, the password is randomly generated and displayed on the screen. The user can then click the copy to clipboard button and the password will be copied.</p>
+                    <br>
+                    <h5>Technologies</h5>
+                    <ul>
+                        <li>JavaScript <i class="fab fa-js-square"></i></li>
+                        <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://prismaticdevelopmentstudios.github.io/reaction-timer/" target="_blank" class="btn btn-primary">View App</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Apps -->
     <h1 class="text-center text-white">Deployed Applications</h1>
     <hr color="white" width="20%">
@@ -283,7 +310,20 @@
                     <button type="button" class="btn btn-info" data-toggle="modal" data-target="#tictactoe">Info</button>
                 </div>
             </div>
+            <div class="carousel-item">
+                <h2 class="card-title text-center">Password Generator</h2>
+                <div class="img">
+                    <img class="d-block w-50" src="./assets/img/generator.jpg" alt="Third slide">
+                </div>
+                <div class="btns">
+                    <a href="https://prismaticdevelopmentstudios.github.io/password_generator/ " target="_blank " class="btn btn-primary ">View App</a>
+                    <a href="https://github.com/PrismaticDevelopmentStudios/password_generator/tree/master " target="_blank " class="btn btn-success ">Source Code</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#generator">Info</button>
+                </div>
+            </div>
         </div>
+        <!-- Carousel Btns -->
         <a class="carousel-control-prev" href="#apps" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -296,6 +336,7 @@
     <div class="btns">
         <a href="#top" class="btn btn-secondary mb-3">Back to Top</a>
     </div>
+    <!-- Footer -->
     <br><br><br><br><br>
     <footer>
         <a title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/matthewbrignola/">
