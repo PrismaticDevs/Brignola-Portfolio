@@ -169,22 +169,6 @@ footer i {
 /* Media Queries */
 
 @media only screen and (max-width: 900px) {
-    .top-section {
-        margin-top: 20%;
-    }
-    .nav ul {
-        z-index: 1;
-        width: 100vw;
-        flex-wrap: wrap;
-    }
-    #about,
-    #resume,
-    #deployed {
-        padding-top: 9%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
     .nav ul {
         z-index: 1;
         width: 100vw;
@@ -202,9 +186,16 @@ footer i {
         max-width: 50vw;
     }
     .about-section {
-        max-width: 50vw;
+        justify-content: center;
     }
     a {
         font-size: .5em;
+    }
+    .card {
+        margin: 0 auto;
+    }
+    .languages {
+        margin-left: 30%;
+        margin-right: 30%;
     }
 }
