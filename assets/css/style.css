@@ -27,12 +27,22 @@ footer i {
 
 /* Ids */
 
+#top {
+    padding-top: 1%;
+}
+
 #du {
-    width: 5%;
+    width: 2.5%;
 }
 
 #profile-pic {
     width: 33%;
+}
+
+#about,
+#resume,
+#deployed {
+    padding-top: 5%;
 }
 
 
@@ -57,6 +67,10 @@ footer i {
     color: white;
 }
 
+#resume ul {
+    list-style-type: square;
+}
+
 .resume {
     display: flex;
     justify-content: center;
@@ -78,6 +92,20 @@ footer i {
     animation-name: fadeIn;
 }
 
+.top-section {
+    margin-top: 5%;
+}
+
+.flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.flex p {
+    margin-left: 1%;
+    font-size: 1.5em;
+}
+
 
 /* Navbar */
 
@@ -91,7 +119,7 @@ footer i {
     justify-content: center;
 }
 
-li {
+.nav li {
     display: inline-block;
 }
 
@@ -107,10 +135,6 @@ li {
 .nav li a:hover {
     color: white;
     text-decoration: none;
-}
-
-.top-section {
-    margin-top: 5%;
 }
 
 
@@ -130,6 +154,9 @@ li {
     }
 }
 
+
+/* Media Queries */
+
 @media only screen and (max-width: 900px) {
     .top-section {
         margin-top: 20%;
@@ -138,5 +165,23 @@ li {
         z-index: 1;
         width: 100vw;
         flex-wrap: wrap;
+    }
+    #about,
+    #resume,
+    #deployed {
+        padding-top: 9%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav ul {
+        z-index: 1;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    #about,
+    #resume,
+    #deployed {
+        padding-top: 29%;
     }
 }

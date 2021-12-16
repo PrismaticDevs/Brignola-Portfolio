@@ -8,7 +8,8 @@
     <title>Matthew Brignola Web Portfolio</title>
     <!-- Boostrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/carousel.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
 </head>
 
 <body>
@@ -19,32 +20,104 @@
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="#deployed">Apps</a>
                 </li>
                 <li>
-                    <a href="#apps">Apps</a>
+                    <a href="#resume">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div class="main">
+    <div id="top" class="main">
         <div class="top-section">
-            <h2 id="top" class="text-center text-white mt-3">Matthew Brignola</h2>
+            <h2 class="text-center text-white mt-3">Matthew Brignola</h2>
             <h1 class="text-center  text-white main-title">Web Development Portfolio</h1>
         </div>
         <div id="about" class="mb-5 card">
             <div class="section mb-5 text-center">
                 <h1>About Me</h1>
                 <img id="profile-pic" src="./assets/img/profile-img.png" alt="Image Could Not Be Loaded">
-                <h4>Education</h4>
-                <p>Bachelor's of Arts in Video Production & English from the University of Denver<img id="du" src="./assets/img/DU-logo.jpeg" alt="DU"></p>
-                <h4>Located</h4>
-                Colorado Springs, CO but willing to relocate
+                <h3>Matthew Brignola</h3>
+                <div class="flex">
+                    <h4>Age: </h4>
+                    <p class="mr-2">29</p>
+                </div>
+                <div class="flex">
+                    <h4>Education: </h4>
+                    <p>BA in Video Production & English <br> University of Denver</p>
+                </div>
+                <div class="flex">
+                    <h4>Lives: </h4>
+                    <p>Colorado Springs, CO but willing to relocate</p>
+                </div>
+                <h4 class="text-left">Languages & Frameworks: </h4>
+                <div class="skills">
+                    <div class="wrapper">
+                        <div class="shape-1"></div>
+                        <div class="shape-2"></div>
+                        <div class="container">
+                            <div class="skills">
+                                <div class="details">
+                                    <span>HTML <i class="fab fa-html5"></i></span>
+                                    <span>93%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="html-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skills">
+                                <div class="details">
+                                    <span>CSS <i class="fab fa-css3-alt"></i></span>
+                                    <span>79%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="css-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skills">
+                                <div class="details">
+                                    <span>Javascript <i class="fab fa-js-square"></i></span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="js-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skills">
+                                <div class="details">
+                                    <span>jQuery</span>
+                                    <span>68%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="jQuery-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skills">
+                                <div class="details">
+                                    <span>Vue.js <i class="fab fa-vuejs"></i></span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="vue-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skills">
+                                <div class="details">
+                                    <span>React.js <i class="fab fa-react"></i></span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="react-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <!-- Apps -->
-        <div class="deployed">
+        <div id="deployed">
             <h1 class="text-center text-white">Deployed Applications</h1>
             <hr color="white" width="20%">
             <div id="apps" class="carousel slide mb-5" data-interval="false" data-ride="carousel">
@@ -135,7 +208,10 @@
         </div>
         <div id="resume" class="mb-5 card">
             <div class="section">
-                <h1>Work Experience</h1>
+                <div class="resume m-0">
+                    <a class="btn btn-primary" href="./assets/Matthew Brignola Resume.pdf" download>Download as PDF</a>
+                </div>
+                <h1 class="text-center">Work Experience</h1>
                 <ul>
                     <h3>Managed Services Technical Consultant at AppTier LLC in Denver, CO</h3>
                     <h3>April 2019 - October 2019</h3>
@@ -164,9 +240,6 @@
                     <li>Meeting Scheduling and Facilitation</li>
                     <li>Financial Reports and Projections</li>
                 </ul>
-            </div>
-            <div class="resume">
-                <a class="btn btn-primary" href="./assets/Matthew Brignola Resume.pdf" download>Download as PDF</a>
             </div>
             <a href="#top" class="btn btn-secondary">Back to Top</a>
         </div>
