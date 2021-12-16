@@ -193,7 +193,7 @@ footer i {
     #about,
     #resume,
     #deployed {
-        padding-top: 29%;
+        padding-top: 35%;
     }
     .flex {
         flex-direction: column;
