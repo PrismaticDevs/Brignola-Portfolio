@@ -97,20 +97,20 @@ h2 {
 }
 
 #sql-bar {
-    animation: react-fill 2s forwards;
+    animation: sql-fill 2s forwards;
 }
 
-@keyframes react-fill {
+@keyframes sql-fill {
     100% {
         width: 78%;
     }
 }
 
 #node-bar {
-    animation: react-fill 2s forwards;
+    animation: node-fill 2s forwards;
 }
 
-@keyframes react-fill {
+@keyframes node-fill {
     100% {
         width: 63%;
     }

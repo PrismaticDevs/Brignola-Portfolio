@@ -85,6 +85,7 @@ footer i {
     padding-top: 3%;
     margin-left: 15%;
     margin-right: 15%;
+    flex-wrap: wrap;
 }
 
 .main-title {
@@ -193,5 +194,17 @@ footer i {
     #resume,
     #deployed {
         padding-top: 29%;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .skills {
+        max-width: 50vw;
+    }
+    .about-section {
+        max-width: 50vw;
+    }
+    a {
+        font-size: .5em;
     }
 }
