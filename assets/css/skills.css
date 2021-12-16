@@ -6,6 +6,10 @@ h2 {
     font-weight: bold;
 }
 
+#jquery {
+    width: 15%;
+}
+
 .skills:not(:last-child) {
     margin-bottom: 30px;
 }
