@@ -6,8 +6,9 @@ h2 {
     font-weight: bold;
 }
 
-#jquery {
+.dev-icon {
     width: 15%;
+    color: black;
 }
 
 .skills:not(:last-child) {
@@ -92,5 +93,25 @@ h2 {
 @keyframes react-fill {
     100% {
         width: 65%;
+    }
+}
+
+#sql-bar {
+    animation: react-fill 2s forwards;
+}
+
+@keyframes react-fill {
+    100% {
+        width: 78%;
+    }
+}
+
+#node-bar {
+    animation: react-fill 2s forwards;
+}
+
+@keyframes react-fill {
+    100% {
+        width: 63%;
     }
 }
