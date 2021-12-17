@@ -10,7 +10,7 @@ This repository contains the code for a deployed web app that is my web developm
 * [Instructions](#instructions)
 
 ## Contact
-Matthew Brignola<br>
+(719) 351-5828<br>
 matthewbrignola@ymail.com<br>
 https://www.linkedin.com/in/matthewbrignola/
 ## Technologies
@@ -22,14 +22,12 @@ https://www.linkedin.com/in/matthewbrignola/
    <br> [Bootstrap](https://getbootstrap.com/) 
 ## Instructions
 1. Scroll through he "About Me" section to get an overview of myself, my contact information, and my web development skills.<br>
-![searchbar](./assets/preview/img1.png)
+![about](./assets/preview/img1.png)
 2. Included is a list of my proficiencies in web developmen languages and frameworks. <br>
-![dropdown](./assets/preview/img2.png)
+![skills](./assets/preview/img2.png)
 3. Croll down to see a carousel that displays some of my deployed web applications. 
-<br>![info](./assets/preview/img3.png)
-6. Underneath the application cariousel is an html rendering of my current resume. 
-<br>![modal](./assets/preview/img4.png)
-8. At the bottom of my resume is a button to download a PDF version of my resume. 
+<br>![caropusel](./assets/preview/img3.png)
+4. At the bottom of my resume is a button to download a PDF version of my resume. 
 <br>![history](./assets/preview/img5.png)
 
 
