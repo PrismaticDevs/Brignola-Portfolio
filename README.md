@@ -29,7 +29,7 @@ https://www.linkedin.com/in/matthewbrignola/
 <br>![info](./assets/preview/img3.png)
 6. Underneath the application cariousel is an html rendering of my current resume. 
 <br>![modal](./assets/preview/img4.png)
-8. At he bottom of my resume is a button to download a PDF version of my resume. 
+8. At the bottom of my resume is a button to download a PDF version of my resume. 
 <br>![history](./assets/preview/img5.png)
 
 
