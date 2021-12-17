@@ -86,6 +86,7 @@ footer i {
     margin-left: 15%;
     margin-right: 15%;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-title {
@@ -105,6 +106,14 @@ footer i {
 .flex p {
     margin-left: 1%;
     font-size: 1.5em;
+}
+
+.flex.languages {
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50vw;
 }
 
 .small {
@@ -169,6 +178,22 @@ footer i {
 /* Media Queries */
 
 @media only screen and (max-width: 900px) {
+    .top-section {
+        margin-top: 20%;
+    }
+    .nav ul {
+        z-index: 1;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    #about,
+    #resume,
+    #deployed {
+        padding-top: 9%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .nav ul {
         z-index: 1;
         width: 100vw;
@@ -186,16 +211,10 @@ footer i {
         max-width: 50vw;
     }
     .about-section {
-        justify-content: center;
+        max-width: 50vw;
     }
     a {
         font-size: .5em;
-    }
-    .card {
-        margin: 0 auto;
-    }
-    .languages {
-        margin-left: 30%;
-        margin-right: 30%;
+        word-break: break-all;
     }
 }
