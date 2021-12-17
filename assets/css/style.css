@@ -45,6 +45,10 @@ footer i {
     padding-top: 5%;
 }
 
+#resume ul {
+    list-style-type: square;
+}
+
 
 /* Classes */
 
@@ -65,10 +69,6 @@ footer i {
 
 .card-title {
     color: white;
-}
-
-#resume ul {
-    list-style-type: square;
 }
 
 .resume {
@@ -217,7 +217,7 @@ footer i {
         font-size: .5em;
         word-break: break-all;
     }
-    .top-section {
+    .fsqltop-section {
         padding-top: 10%;
     }
 }
