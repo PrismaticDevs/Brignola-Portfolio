@@ -217,4 +217,7 @@ footer i {
         font-size: .5em;
         word-break: break-all;
     }
+    .top-section {
+        padding-top: 10%;
+    }
 }
