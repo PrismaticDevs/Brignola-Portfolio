@@ -22,7 +22,7 @@ https://www.linkedin.com/in/matthewbrignola/
    <br> [Bootstrap](https://getbootstrap.com/) 
 ## Instructions
 1. Scroll through he "About Me" section to get an overview of myself, my contact information, and my web development skills.<br>
-![about](./assets/preview/img1.png)
+![about](./assets/preview/img.png)
 2. Included is a list of my proficiencies in web developmen languages and frameworks. <br>
 ![skills](./assets/preview/img2.png)
 3. Croll down to see a carousel that displays some of my deployed web applications. 
