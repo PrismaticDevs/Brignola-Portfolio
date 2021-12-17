@@ -1,4 +1,4 @@
-# crypto-cocktails
+# Brignola-Portfolio
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Descripton
 This repository contains the code for a deployed web app that is my web developmen porfolio. This app includes 6 of my deployed applications, which are displayed with a Bootstrap carousel component.
