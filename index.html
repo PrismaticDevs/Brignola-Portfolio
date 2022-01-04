@@ -161,6 +161,8 @@
         <div id="deployed">
             <h1 class="text-center text-white">Deployed Applications</h1>
             <hr color="white" width="20%">
+            <!-- Front End-->
+            <h1 class="text-white text-center">Front End</h1>
             <div id="apps" class="carousel slide mb-5" data-interval="false" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -243,6 +245,42 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            <!-- Back End -->
+            <h1 class="text-white text-center">Back End</h1>
+            <div id="back-end" class="carousel slide mb-5" data-interval="false" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h2 class="card-title text-center">README.md Generator</h2>
+                        <div class="img">
+                            <img class="d-block w-50" src="./assets/img/team-profile.jpg" alt="First slide">
+                        </div>
+                        <div class="btns">
+                            <a href="https://github.com/PrismaticDevelopmentStudios/README-Generator" target="_blank" class="btn btn-success">Source Code</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#read-me">Info</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <h2 class="card-title text-center">Team Profile Generator</h2>
+                        <div class="img">
+                            <img class="d-block w-50" src="./assets/img/planner.jpg" alt="Second slide">
+                        </div>
+                        <div class="btns">
+                            <a href="https://github.com/PrismaticDevelopmentStudios/Team-Profile-Generator" target="_blank " class="btn btn-success ">Source Code</a>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#team-profiles">Info</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Btns -->
+                <a class="carousel-control-prev" href="#back-end" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#back-end" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
             <div class="btns">
                 <a href="#top" class="btn btn-secondary mb-3">Back to Top</a>
             </div>
@@ -319,8 +357,7 @@
                 </div>
             </div>
         </div>
-        <!-- Crypto
-    <!-- Weather Modal -->
+        <!-- Weather Modal -->
         <div class="modal fade" id="weather" tabindex="-1" role="dialog" aria-labelledby="weather" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -457,6 +494,35 @@
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <a href="https://prismaticdevelopmentstudios.github.io/reaction-timer/" target="_blank" class="btn btn-primary">View App</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team Profile Modal -->
+    <div class="modal fade" id="team-profile" tabindex="-1" role="dialog" aria-labelledby="team-profile" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Weather Forecasts by City</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+                </div>
+                <div class="modal-body">
+                    <p>This application fetches current and 5 day weather forecast data from the Open Weather API. Users can enter the city in any country they want to see the weather for. The data that is reurned displays the curren weather along with a
+                        5 day faorecast. Icons are also displayed to represent the current or projected weather forecast.</p>
+                    <br>
+                    <h5>Technologies</h5>
+                    <ul>
+                        <li>Open Weather API</li>
+                        <li>jQuery & Ajax</li>
+                        <li>JavaScript <i class="fab fa-js-square"></i></li>
+                        <li>HTML <i class="fab fa-html5"></i> & CSS <i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://prismaticdevelopmentstudios.github.io/crypto-cocktails/" target="_blank" class="btn btn-primary">View App</a>
                 </div>
             </div>
         </div>
