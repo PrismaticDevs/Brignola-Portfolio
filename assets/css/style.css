@@ -49,6 +49,12 @@ footer i {
     list-style-type: square;
 }
 
+#full,
+#back,
+#front {
+    scroll-margin-top: 1.5em;
+}
+
 
 /* Classes */
 
@@ -118,7 +124,7 @@ footer i {
 
 .small {
     font-size: 1.25em;
-    margin-left: .5%;
+    margin-left: 0.5%;
 }
 
 .flex-center {
@@ -155,6 +161,18 @@ footer i {
 .nav li a:hover {
     color: white;
     text-decoration: none;
+}
+
+#dropdownMenuButton {
+    color: #007bff;
+}
+
+#dropdownMenuButton:hover {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff;
 }
 
 
@@ -214,10 +232,15 @@ footer i {
         max-width: 50vw;
     }
     a {
-        font-size: .5em;
+        font-size: 0.5em;
         word-break: break-all;
     }
     .top-section {
         padding-top: 10%;
+    }
+    #full,
+    #back,
+    #front {
+        scroll-margin-top: 5em;
     }
 }

@@ -20,7 +20,16 @@
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#deployed">Apps</a>
+                    <div class="dropdown">
+                        <a class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Apps
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#front">Front End</a>
+                            <a class="dropdown-item" href="#back">Back End</a>
+                            <a class="dropdown-item" href="#full">Full Stack</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#resume">Resume</a>
@@ -160,7 +169,7 @@
         <!-- Apps -->
         <div id="deployed">
             <!-- Front End-->
-            <h1 class="text-white text-center">Front End</h1>
+            <h1 id="front" class="text-white text-center">Front End</h1>
             <hr color="white" width="8%">
             <div id="apps" class="carousel slide mb-5" data-interval="false" data-ride="carousel">
                 <div class="carousel-inner">
@@ -245,7 +254,7 @@
                 </a>
             </div>
             <!-- Back End -->
-            <h1 class="text-white text-center">Back End</h1>
+            <h1 id="back" class="text-white text-center">Back End</h1>
             <hr color="white" width="8%">
             <div id="back-end" class="carousel slide mb-5" data-interval="false" data-ride="carousel">
                 <div class="carousel-inner">
@@ -286,7 +295,7 @@
             </div>
         </div>
         <!-- Full Stack -->
-        <h1 class="text-white text-center">Full Stack</h1>
+        <h1 id="full" class="text-white text-center">Full Stack</h1>
         <hr color="white" width="8%">
         <div id="full-stack" class="carousel slide mb-5" data-interval="false" data-ride="carousel">
             <div class="carousel-inner">
