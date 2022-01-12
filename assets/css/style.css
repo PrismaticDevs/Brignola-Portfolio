@@ -243,4 +243,7 @@ footer i {
     #front {
         scroll-margin-top: 5em;
     }
+    .main-title {
+        margin-top: 1em;
+    }
 }
